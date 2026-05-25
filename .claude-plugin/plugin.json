@@ -1,0 +1,21 @@
+{
+  "name": "mm-mediadebug",
+  "displayName": "mm-mediadebug — 多媒体 Jira 调试工作流",
+  "version": "0.1.0",
+  "description": "面向 Amlogic 多媒体团队的 Jira 根因分析工作流：一套可复用的 Claude Code skill，覆盖 Jira/Confluence/Gerrit/OpenGrok 查询与写入、长期记忆沉淀、代码库 onboarding、计划对齐与会话交接。",
+  "author": {
+    "name": "Amlogic Multimedia Team"
+  },
+  "repository": "ssh://scgit.amlogic.com:29418/av-restricted/media_docs",
+  "keywords": [
+    "jira",
+    "confluence",
+    "gerrit",
+    "opengrok",
+    "debugging",
+    "root-cause",
+    "multimedia",
+    "amlogic"
+  ],
+  "skills": "./skills/"
+}
