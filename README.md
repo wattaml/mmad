@@ -10,6 +10,28 @@
 
 ## 安装
 
+### 用 npx skills 安装（推荐）
+
+需要 Node.js（`npx`）。一行装好全部 skill：
+
+```bash
+npx skills add https://github.com/wattaml/mmad
+# GitHub 简写，等价：
+npx skills add wattaml/mmad
+```
+
+常用选项：
+
+```bash
+npx skills add wattaml/mmad -g                      # 装到用户目录（全局），而非当前项目
+npx skills add wattaml/mmad -a claude-code          # 指定目标 agent（默认会提示选择）
+npx skills add wattaml/mmad -s mmad-jira-analyzer   # 只装指定 skill（-s 可重复）
+npx skills add "wattaml/mmad#<branch>"              # 指定分支（# 要加引号，否则被 shell 当注释）
+npx skills add wattaml/mmad -l                      # 只列出可装的 skill，不安装
+```
+
+### 手动复制（无 npx 时）
+
 ```bash
 cp -r skills /path/to/your/project/
 ```

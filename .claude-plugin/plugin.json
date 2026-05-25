@@ -6,7 +6,8 @@
   "author": {
     "name": "Amlogic Multimedia Team"
   },
-  "repository": "ssh://scgit.amlogic.com:29418/av-restricted/media_docs",
+  "homepage": "https://github.com/wattaml/mmad",
+  "repository": "https://github.com/wattaml/mmad",
   "keywords": [
     "jira",
     "confluence",
